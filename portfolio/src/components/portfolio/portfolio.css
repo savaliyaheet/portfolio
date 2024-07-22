@@ -1,0 +1,45 @@
+.portfolio {
+  margin: 100px 0;
+}
+
+.portfolio h2 {
+  color: #232e35 !important;
+}
+  
+.carousel {
+  margin-top: 60px;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  width: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  right: 40px !important;
+  background: #eae6fe !important;
+  top: -95px !important;
+  align-items: flex-start !important;
+  border-radius: 8px;
+}
+.carousel-control-next {
+  position: absolute;
+  bottom: auto !important;
+  left: auto !important;
+  right: 0 !important;
+  top: -95px !important;
+  align-items: flex-start !important;
+  width: auto !important;
+  background: #eae6fe !important;
+  border-radius: 8px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  color: #7e74f1;
+}
